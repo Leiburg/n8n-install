@@ -396,7 +396,8 @@ RUN mkdir -p /export && tar chf /export/tools.tar \
     2>/dev/null ; true
 
 # ─── STAGE 2: Hardened n8n ─────────────────────────────────
-FROM docker.n8n.io/n8nio/n8n:latest
+#FROM docker.n8n.io/n8nio/n8n:latest
+FROM n8nio/n8n:latest
 
 USER root
 
