@@ -690,7 +690,7 @@ services:
       TZ: ${TZ}
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
-      - /opt/websansay/n8n:/opt/websansay/n8n:ro
+      - /opt/websansay/n8n:/opt/websansay/n8n
       - ./logs:/logs
     networks:
       - n8n-net
