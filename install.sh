@@ -295,7 +295,7 @@ N8N_PROXY_HOPS=1
 # Execute Command и Local File Trigger разрешены
 NODES_EXCLUDE=[]
 # Whitelist путей для Read/Write Binary Files
-N8N_RESTRICT_FILE_ACCESS_TO=/home/node/.n8n-files;/data
+N8N_RESTRICT_FILE_ACCESS_TO="/home/node/.n8n-files;/data"
 # Task runners (false = быстрее, true = безопаснее)
 N8N_RUNNERS_ENABLED=false
 
